@@ -1,0 +1,32 @@
+.categoria{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1em;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.botoes{
+    text-align: center;
+    margin: auto;
+}
+
+.botao{
+    color: rebeccapurple;
+    border: 3px solid rebeccapurple;
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.3em;
+    transition: all 0.5s ;
+}
+
+.botao:hover{
+    background-color: rebeccapurple;
+    color: white;
+    transition: all 0.5s;
+}
